@@ -8,10 +8,6 @@ import { Button } from '@/components/ui/button';
 
 const faqs = [
   {
-    question: '¿Los libros son físicos o digitales?',
-    answer: 'Los libros son 100% digitales (formato eBook PDF). Puedes leerlos en tu celular, tablet o computadora, donde y cuando quieras.',
-  },
-  {
     question: '¿Cómo recibiré los libros después de la compra?',
     answer: 'Una vez realizada la compra, recibirás un enlace de acceso directamente en tu correo electrónico. Si necesitas ayuda, escríbenos a: digitalpay.ofc@gmail.com',
   },
@@ -26,6 +22,10 @@ const faqs = [
   {
     question: '¿Y si no me gusta el contenido?',
     answer: 'Tienes 30 días de garantía incondicional. Si no te gusta por cualquier motivo, te devolvemos el 100% de tu dinero, sin trámites ni complicaciones.',
+  },
+  {
+    question: '¿Los libros son físicos o digitales?',
+    answer: 'Los libros son 100% digitales (formato eBook PDF). Puedes leerlos en tu celular, tablet o computadora, donde y cuando quieras.',
   },
 ];
 
