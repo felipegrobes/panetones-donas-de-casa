@@ -6,13 +6,13 @@ export function Pitch() {
       <div className="container">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-headline text-3xl font-bold text-primary sm:text-4xl text-balance">
-            Te enseñaré a preparar, poner precio y vender los panetones
+            Te enseñaré a preparar, poner precio y vender los panetones:
           </h2>
           <div className="mt-8 flex justify-center">
             {/* The user requested to remove the image here */}
           </div>
           <p className="mt-1 text-xl text-foreground/80 text-balance">
-            todo lo que necesitas para ganar mucho dinero esta Navidad. Aprovecha esta oportunidad, porque si no lo haces tú, otros la aprovecharán.
+            todo lo que necesitas para ganar dinero esta Navidad.
           </p>
         </div>
       </div>
