@@ -25,7 +25,7 @@ export function BookTeaser() {
         </h2>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
           {bookItems.map((item, index) => (
-            <div key={index} className="relative aspect-[3/4] w-full overflow-hidden rounded-xl shadow-lg transition-transform duration-300 hover:scale-105">
+            <div key={index} className="relative aspect-square w-full overflow-hidden rounded-xl shadow-lg transition-transform duration-300 hover:scale-105">
                 <Image src={item.image} alt={item.text} fill className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
                 <div className="absolute bottom-0 left-0 p-6">
