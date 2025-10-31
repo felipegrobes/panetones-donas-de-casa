@@ -18,7 +18,7 @@ const bookItems = [
 
 export function BookTeaser() {
   return (
-    <section id="book-teaser" className="py-16 sm:py-24 bg-primary/5">
+    <section id="book-teaser" className="py-16 sm:py-24">
       <div className="container text-center">
         <h2 className="font-headline text-3xl font-bold text-primary sm:text-4xl text-balance">
           Mira una parte de lo que recibirás en los libros:
