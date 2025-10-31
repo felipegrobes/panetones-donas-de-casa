@@ -29,11 +29,11 @@ export function BookTeaser() {
                 <Image src={item.image} alt={item.text} fill className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
                 <div className="absolute bottom-0 left-0 p-6">
-                    <div className="flex items-center gap-3">
-                        <div className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-green-500/90 text-white">
+                    <div className="flex gap-3 items-start">
+                        <div className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-green-500/90 text-white mt-1">
                             <Check className="h-5 w-5" />
                         </div>
-                        <span className="text-xl font-semibold text-white">{item.text}</span>
+                        <span className="text-xl font-semibold text-white text-left">{item.text}</span>
                     </div>
                 </div>
             </div>
