@@ -23,22 +23,21 @@ export function BookTeaser() {
         <h2 className="font-headline text-3xl font-bold text-primary sm:text-4xl text-balance">
           Mira una parte de lo que recibirás en los libros:
         </h2>
-        <div className="mx-auto mt-12 max-w-4xl">
-            <ul className="space-y-8 text-left">
-                {bookItems.map((item, index) => (
-                <li key={index} className="flex flex-col sm:flex-row items-center gap-6 rounded-lg bg-card p-6 shadow-sm border border-primary/10">
-                    <div className="flex-shrink-0">
-                        <Image src={item.image} alt={item.text} width={100} height={100} className="rounded-lg object-cover shadow-md" />
-                    </div>
-                    <div className="flex items-start gap-4">
-                        <div className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-green-500/20 text-green-600 mt-1">
+        <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
+          {bookItems.map((item, index) => (
+            <div key={index} className="relative aspect-[3/4] w-full overflow-hidden rounded-xl shadow-lg transition-transform duration-300 hover:scale-105">
+                <Image src={item.image} alt={item.text} fill className="object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                <div className="absolute bottom-0 left-0 p-6">
+                    <div className="flex items-center gap-3">
+                        <div className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-green-500/90 text-white">
                             <Check className="h-5 w-5" />
                         </div>
-                        <span className="text-xl text-foreground/80">{item.text}</span>
+                        <span className="text-xl font-semibold text-white">{item.text}</span>
                     </div>
-                </li>
-                ))}
-            </ul>
+                </div>
+            </div>
+          ))}
         </div>
         <p className="mt-8 text-xl font-semibold text-foreground/90">
             Y mucho más...
