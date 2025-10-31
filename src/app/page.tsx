@@ -9,6 +9,7 @@ import { PainPoints } from '@/components/landing/PainPoints';
 import { Faq } from '@/components/landing/Faq';
 import { Footer } from '@/components/landing/Footer';
 import { SectionSeparator } from '@/components/landing/SectionSeparator';
+import { BookTeaser } from '@/components/landing/BookTeaser';
 
 export default function Home() {
   return (
@@ -17,6 +18,8 @@ export default function Home() {
         <Hero />
         <SectionSeparator />
         <Features />
+        <SectionSeparator />
+        <BookTeaser />
         <SectionSeparator />
         <Pitch />
         <SectionSeparator />
