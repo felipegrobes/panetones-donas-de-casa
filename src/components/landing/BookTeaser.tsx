@@ -3,15 +3,15 @@ import Image from "next/image";
 
 const bookItems = [
     {
-        text: "Panetones de Frutas Cristalizadas Gourmet",
+        text: "Panetones de Frutas Cristalizadas",
         image: "/images/frutas.webp",
     },
     {
-        text: "Panetones de Chocolate Gourmet",
+        text: "Panetones de Chocolate",
         image: "/images/chocolate.webp",
     },
     {
-        text: "Panetones Rellenos Gourmet",
+        text: "Panetones Rellenos",
         image: "/images/relleno.webp",
     },
 ];
